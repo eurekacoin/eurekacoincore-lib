@@ -1,12 +1,12 @@
 {
-  "name": "qtumcore-lib",
-  "main": "./qtumcore-lib.min.js",
+  "name": "eurekacoincore-lib",
+  "main": "./eurekacoincore-lib.min.js",
   "version": "0.0.1",
-  "homepage": "http://qtum.org",
+  "homepage": "http://eurekacoin.org",
   "authors": [
-    "QTUM <foundation@qtum.org>"
+    "EUREKACOIN <foundation@eurekacoin.org>"
   ],
-  "description": "A pure, powerful core for your qtum project.",
+  "description": "A pure, powerful core for your eurekacoin project.",
   "moduleType": [
     "globals"
   ],

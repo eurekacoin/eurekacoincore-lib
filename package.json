@@ -1,8 +1,8 @@
 {
-  "name": "qtumcore-lib",
+  "name": "eurekacoincore-lib",
   "version": "0.0.1",
-  "description": "A pure and powerful JavaScript QTUM library.",
-  "author": "QTUM <foundation@qtum.org>",
+  "description": "A pure and powerful JavaScript EUREKACOIN library.",
+  "author": "EUREKACOIN <foundation@eurekacoin.org>",
   "main": "index.js",
   "scripts": {
     "lint": "gulp lint",
@@ -12,7 +12,7 @@
   },
   "contributors": [],
   "keywords": [
-    "qtum",
+    "eurekacoin",
     "bitcoin",
     "transaction",
     "address",
@@ -30,7 +30,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/qtumproject/qtumcore-lib.git"
+    "url": "https://github.com/eurekacoin/eurekacoincore-lib.git"
   },
   "browser": {
     "request": "browser-request"

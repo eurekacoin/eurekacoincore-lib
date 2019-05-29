@@ -1,8 +1,8 @@
-# QTUM Address
-Represents a QTUM address. Addresses are the most popular way to make QTUM transactions.
+# EUREKACOIN Address
+Represents a EUREKACOIN address. Addresses are the most popular way to make EUREKACOIN transactions.
 
 ## Instantiate an Address
-To be able to receive QTUMs an address is needed, but in order to spend them a private key is necessary. Please take a look at the [`PrivateKey`](privatekey.md) docs for more information about exporting and saving a key.  
+To be able to receive EUREKACOINs an address is needed, but in order to spend them a private key is necessary. Please take a look at the [`PrivateKey`](privatekey.md) docs for more information about exporting and saving a key.  
 
 ```javascript
 var privateKey = new PrivateKey();
@@ -34,7 +34,7 @@ var p2shAddress = new Address([publicKey1, publicKey2, publicKey3], 2);
 ```
 
 ## Validating an Address
-The main use that we expect you'll have for the `Address` class in Qtumcore is validating that an address is a valid one, what type of address it is (you may be interested on knowing if the address is a simple "pay to public key hash" address or a "pay to script hash" address) and what network does the address belong to.
+The main use that we expect you'll have for the `Address` class in EurekaCoincore is validating that an address is a valid one, what type of address it is (you may be interested on knowing if the address is a simple "pay to public key hash" address or a "pay to script hash" address) and what network does the address belong to.
 
 The code to do these validations looks like this:
 
